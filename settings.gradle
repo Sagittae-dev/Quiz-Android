@@ -1,0 +1,2 @@
+rootProject.name='Quiz Android'
+include ':app'
