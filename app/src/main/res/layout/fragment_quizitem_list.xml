@@ -23,15 +23,15 @@
             android:textSize="20dp"
             android:textStyle="bold" />
 
-        <android.support.v7.widget.RecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/quest_item_list"
             android:name="pl.wrzosdev.quiz.QuestionSetItemFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/bg_pattern_repeated"
             android:paddingLeft="10dp"
-            android:paddingRight="10dp"
             android:paddingTop="8dp"
+            android:paddingRight="10dp"
             app:layoutManager="LinearLayoutManager"
             tools:context="pl.wrzosdev.quiz.chooser.QuizChooserFragment"
             tools:listitem="@layout/fragment_quizitem" />
